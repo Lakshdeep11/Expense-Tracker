@@ -37,11 +37,11 @@ const SignIn = ({ navigation }) => {
 export default SignIn;
 
 const styles = StyleSheet.create({
-    container: { flex: 1, justifyContent: "center", alignItems: "center" },
-    title: { fontSize: 32, margin:20, color:'#FF7C4E', fontFamily:'Times New Roman'},
+    container: { flex: 1, backgroundColor:'#FF7C4E', justifyContent: "center", alignItems: "center" },
+    title: { fontSize: 48, margin:20, color:'white', fontFamily:'Times New Roman'},
     sign: { fontSize: 24, margin: 20, color:'white'},
     input: { width: 300, padding: 10, borderWidth: 1, marginBottom: 10, marginLeft:20, marginRight:20, borderColor:'white', color:'white' },
-    signContainer:{borderColor:'#FF7C4E', borderWidth:3, justifyContent:'center', alignItems:'center' , backgroundColor:'#FF7C4E', borderRadius:8},
+    signContainer:{borderColor:'#FF7C4E', borderWidth:3, justifyContent:'center', alignItems:'center'},
     login:{color:'#FF7C4E', fontSize:24, margin:10},
     loginBox:{backgroundColor:'white', width:300, alignItems:'center', borderRadius:8, margin:10},
   });
